@@ -1,7 +1,7 @@
 # Confondo -- A Bitcoin privacy Idea
 
 ## Intro
-All bitcoin privacy problems boil down to two things:
+All bitcoin tracking problems boil down to two things:
 
 1. external observer sees what UTXO you're using as input: can use that info for both forward and backward tracking
 2. for that single transaction, assuming multiple inputs and outputs, he can easily track which input funded which output, unless carefully crafted (e.g. [dmix](https://fadibarbara.it/papers/dimx.pdf) or leveraging [subset-sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem))
