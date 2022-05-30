@@ -24,10 +24,12 @@ Here is the solution:
     |                  |`Addr_C_fresh`: 1.095btc|
 
 1. A signs TX with `SIGHASH_ALL|SIGHASH_ANYONECANPAY` (inputs and all ouputs signed, but others can add inputs)
-1. A sends TX to C (maybe C has a box in her site where you can drop signed tx and un backend to process them)
+1. A sends TX to C (maybe C has a box in her site where you can drop signed tx and a backend to process them)
 1. C performs basic checks (is one of the address hers? does she get enough fees?)
-1. C adds one on more input in order to pay 1btc and signs them
+1. C adds one or more input in order to pay 1btc and signs them
 1. C broadcast a transaction TX similar to this:
+
+
 
     |Input               |Output|
     |--|--|
